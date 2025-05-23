@@ -47,7 +47,9 @@ const bio = {
         phone: '+91 8367027220',
         email: 'lakshmana5296@gmail.com',
         website: 'https://laxman-dev.vercel.app/', // Added website
-        location: 'Sanyasirajupeta, Polaki, Srikakulam, Andhra Pradesh, 532429',
+        location: {text:'Sanyasirajupeta, Polaki, Srikakulam, Andhra Pradesh, 532429',
+                  url:"https://www.google.com/maps/place/18%C2%B024'07.9%22N+84%C2%B005'07.5%22E/@18.4021901,84.0828491,17z"
+        },
     },
     social: {
         github: 'https://github.com/laxmanarao5', // Added placeholder
@@ -60,7 +62,7 @@ const bio = {
 
 // Skills data from the resume
 const skills = [
-    "Node.js", "Python", "AWS Azure", "Flask", "Azure DevOps", "Django",
+    "Node.js", "Python", "AWS","Azure", "Flask", "Azure DevOps", "Django",
     "React", "GitHub Actions", "Docker", "Java", "JavaScript", "Linux",
     "MongoDB", "MySQL", "MSSQL", "DynamoDB", "Firebase", "PowerShell",
     "Shell Scripting",
@@ -70,7 +72,7 @@ const skills = [
 const experience = [
     {
         title: 'Software Engineer',
-        company: 'Westagile Labs',
+        company: 'Veltris',
         dates: '02/2023 - Present',
         location: 'Remote',
         description: [
@@ -372,7 +374,7 @@ const ContactSection = () => (
                             </div>
                             <div className="flex items-center gap-2">
                                 <MapPin className="w-5 h-5 text-purple-400" />
-                                <span className="text-gray-300">{bio.contact.location}</span>
+                                <a href={bio.contact.location.url} target="_blank" rel="noopener noreferrer"><span className="text-gray-300">{bio.contact.location.text}</span></a>
                             </div>
                             {bio.contact.website && (
                               <div className="flex items-center gap-2">
