@@ -46,12 +46,12 @@ const bio = {
     contact: {
         phone: '+91 8367027220',
         email: 'lakshmana5296@gmail.com',
-        website: 'http://www.laxman.cf', // Added website
+        website: 'https://laxman-dev.vercel.app/', // Added website
         location: 'Sanyasirajupeta, Polaki, Srikakulam, Andhra Pradesh, 532429',
     },
     social: {
-        github: 'https://github.com', // Added placeholder
-        linkedin: 'https://linkedin.com', // Added placeholder
+        github: 'https://github.com/laxmanarao5', // Added placeholder
+        linkedin: 'https://www.linkedin.com/in/boddepalli-laxmanarao', // Added placeholder
     },
     summary: `
     Tech enthusiast with a strong foundation from early education and hands-on experience with modern technologies and frameworks. Committed to continuous learning and embracing challenges in the technology industry. Currently seeking opportunities to apply my skills and contribute to innovative and impactful projects.
@@ -136,7 +136,7 @@ const Header = () => (
                 <Code className="w-6 h-6 text-blue-500" />
                 <h1 className="text-2xl font-bold text-white">{bio.name}</h1>
             </motion.div>
-            <nav>
+            <nav className="hidden md:block">
                 <ul className="flex space-x-6">
                     <li>
                         <a href="#about" className="text-gray-300 hover:text-white transition-colors">
