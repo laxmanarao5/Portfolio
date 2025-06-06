@@ -106,8 +106,8 @@ const projects = [
     {
         title: "Ganesh Chaturthi Finance Manager",
         description: "Designed and developed a mobile app to manage festival-related finances during Ganesh Chaturthi celebrations.",
-        technologies: ["React", "React Native", "Fire store"],
-        link: "https://github.com", // Placeholder
+        technologies: ["React", "React Native", "Fire store","Github Actions - CI/CD", "Flask", "DynamoDB", "CloudFront"],
+        link: "https://github.com/laxmanarao5/Ganesh-Chaturthi-Finance-Manager", // Placeholder
     },
     {
         title: "InfraWatch – Network & Infrastructure Monitoring System",
@@ -119,7 +119,7 @@ const projects = [
         title: "RGUKT Bus Reservation System",
         description: "Developed a web-based application for booking bus tickets provided by RGUKT Srikakulam during holidays.",
         technologies: ["PHP", "MySQL","Paytm Payments Gateway"],
-        link: "https://github.com", // Placeholder
+        link: "https://github.com/laxmanarao5/RGUKT-Bus-Reservation-System---mini-project", // Placeholder
     },
 ];
 
