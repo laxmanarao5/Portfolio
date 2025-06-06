@@ -105,7 +105,7 @@ const education = [
 const projects = [
     {
         title: "Ganesh Chaturthi Finance Manager",
-        description: "Designed and developed a mobile app to manage festival-related finances during Ganesh Chaturthi celebrations.",
+        description: "Designed and developed an web and mobile app to manage festival-related finances during Ganesh Chaturthi celebrations.",
         technologies: ["React", "React Native", "Fire store","Github Actions - CI/CD", "Flask", "DynamoDB", "CloudFront"],
         link: "https://github.com/laxmanarao5/Ganesh-Chaturthi-Finance-Manager", // Placeholder
     },
