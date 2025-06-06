@@ -104,21 +104,21 @@ const education = [
 // Projects Data (Added a projects section)
 const projects = [
     {
-        title: "Project 1: E-commerce Website",
-        description: "Developed a full-stack e-commerce website with user authentication, product browsing, shopping cart, and checkout functionality.",
-        technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+        title: "Ganesh Chaturthi Finance Manager",
+        description: "Designed and developed a mobile app to manage festival-related finances during Ganesh Chaturthi celebrations.",
+        technologies: ["React", "React Native", "Fire store"],
         link: "https://github.com", // Placeholder
     },
     {
-        title: "Project 2: Data Visualization Dashboard",
-        description: "Created an interactive dashboard to visualize sales data using charts and graphs.",
-        technologies: ["React", "D3.js", "Python", "Flask"],
-        link: "https://github.com", // Placeholder
+        title: "InfraWatch – Network & Infrastructure Monitoring System",
+        description: "Developed a web application to monitor real-time status of devices in a college or organization's IT infrastructure.",
+        technologies: ["NodeJs", "PHP","ARP Protocol"],
+        link: "https://github.com/laxmanarao5/network-monitoring-system---major-project", // Placeholder
     },
     {
-        title: "Project 3: Mobile Task Manager",
-        description: "Built a mobile app for managing tasks and to-do lists, with features like reminders and categories.",
-        technologies: ["React Native", "Firebase"],
+        title: "RGUKT Bus Reservation System",
+        description: "Developed a web-based application for booking bus tickets provided by RGUKT Srikakulam during holidays.",
+        technologies: ["PHP", "MySQL","Paytm Payments Gateway"],
         link: "https://github.com", // Placeholder
     },
 ];
