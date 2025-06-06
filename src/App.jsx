@@ -113,13 +113,19 @@ const projects = [
         title: "InfraWatch – Network & Infrastructure Monitoring System",
         description: "Developed a web application to monitor real-time status of devices in a college or organization's IT infrastructure.",
         technologies: ["NodeJs", "PHP","ARP Protocol"],
-        link: "https://github.com/laxmanarao5/network-monitoring-system---major-project", // Placeholder
+        link: "https://github.com/laxmanarao5/InfraWatch-Network-and-Infrastructure-Monitoring-System", // Placeholder
+    },
+    {
+        title: "Full-Stack E-Commerce Platform",
+        description: "Developed a full-stack e-commerce application using React and Flask with user auth, cart, orders, and payment features.",
+        technologies: ["React","Flask", "MySQL","SQLAlchemy","CI/CD"],
+        link: "https://github.com/laxmanarao5/Full-Stack-E-Commerce-Platform", // Placeholder
     },
     {
         title: "RGUKT Bus Reservation System",
         description: "Developed a web-based application for booking bus tickets provided by RGUKT Srikakulam during holidays.",
         technologies: ["PHP", "MySQL","Paytm Payments Gateway"],
-        link: "https://github.com/laxmanarao5/RGUKT-Bus-Reservation-System---mini-project", // Placeholder
+        link: "https://github.com/laxmanarao5/RGUKT-Bus-Reservation-System", // Placeholder
     },
 ];
 
